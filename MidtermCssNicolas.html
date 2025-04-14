@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamond Signs</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #f8f8f8;
+        }
+        .container {
+            width: 60%;
+            margin: auto;
+            border: 2px solid #333;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .header {
+            border-bottom: 2px solid #333;
+            padding: 10px 0;
+        }
+        .sign-image {
+            width: 100%;
+            max-width: 300px;
+        }
+        .coordinates {
+            margin: 10px 0;
+            font-weight: bold;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .sign-box {
+            border: 2px solid #333;
+            background-color: #ffcc00;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <img class="sign-image" src="diamond-sign.png" alt="Diamond Signs">
+            <h1>DIAMOND SIGNS</h1>
+        </div>
+        <div class="coordinates">N37°24.500' W122°09.364'</div>
+        <div class="grid">
+            <div class="sign-box">arrows</div>
+            <div class="sign-box">intersections</div>
+            <div class="sign-box">lanes</div>
+            <div class="sign-box">road status</div>
+            <div class="sign-box">temporary</div>
+            <div class="sign-box">people</div>
+            <div class="sign-box">critters</div>
+            <div class="sign-box">vehicles</div>
+            <div class="sign-box">entrances</div>
+            <div class="sign-box">weather</div>
+        </div>
+    </div>
+
+</body>
+</html>
